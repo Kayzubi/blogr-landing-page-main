@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="master.css" />
+
+    <!-- Bootstrap script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Blogr Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><img src="images/logo.svg" alt="Blogr logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-desktop">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link link-desktop"
+                  href="#"
+                  id="productDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Product <img class="arrow-light" src="images/icon-arrow-light.svg" alt="droparrow"> <img class="arrow-dark"src="images/icon-arrow-dark.svg" alt="droparrow">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="productDropdown">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                  <li><a class="dropdown-item" href="#">Features</a></li>
+                  <li><a class="dropdown-item" href="#">Integrations</a></li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link link-desktop"
+                  href="#"
+                  id="companyDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company <img class="arrow-light" src="images/icon-arrow-light.svg" alt="droparrow"> <img class="arrow-dark"src="images/icon-arrow-dark.svg" alt="droparrow">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Team </a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link link-desktop"
+                  href="#"
+                  id="connectDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Connect <img class="arrow-light" src="images/icon-arrow-light.svg" alt="droparrow"> <img class="arrow-dark" src="images/icon-arrow-dark.svg" alt="droparrow">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="connectDropdown">
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+            <hr class="nav-hr">
+              
+            <div class="navbar-button ms-auto">
+              <button class="btn btn-login">Login</button>
+              <button class="btn btn-light btn-signup">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Title section  -->
+      <section id="title">
+        <h1 class="CTA-head">A modern publishing platform</h1>
+        <p class="CTA-text">Grow your audience and build your online brand</p>
+
+        <button class="btn btn-light">Start for Free</button>
+        <button class="btn btn-outline-light">Learn More</button>
+      </section>
+    </header>
+    <main>
+      <div class="container">
+        <h2  class="heading">Designed for the future</h2>
+        <div class="row sec-one">
+          <img
+            class="imgg desktop-desktop"
+            src="images/illustration-editor-desktop.svg"
+            alt="desktop illustration"
+          />
+          <img
+          class="imgg desktop-mobile"
+          src="images/illustration-editor-mobile.svg"
+          alt="desktop illustration"
+        />
+          <div class="col-md-8">
+            <h2 class="small-heading">Introducing an extensible editor</h2>
+            <p class="para-text">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+
+            <h2 class="small-heading">Robust content management</h2>
+            <p class="para-text">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+        <div>
+      </div>
+    </div>
+    <div class="row blue-box">
+      <div class="col-md-6 phone-box">
+        <img class="imgg phones" src="images/illustration-phones.svg" alt="phones">
+      </div>
+      <div class="col-md-6">
+        <h1 class="CTA-head">State of the Art Infrastructure</h1>
+        <p class="para-text">
+          With reliability and speed in mind, worldwide data centers provide
+          the backbone for ultra-fast connectivity. This ensures your site
+          will load instantly, no matter where your readers are, keeping
+          your site competitive.
+        </p>
+      </div>
+    </div>
+    <div class="row lap-row">
+      <img class="imgg laptop-desktop" src="images/illustration-laptop-desktop.svg" alt="laptop">
+      <img class="imgg laptop-mobile" src="images/illustration-laptop-mobile.svg" alt="laptop">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <h2  class="small-heading">Free, open, simple</h2>
+        <p class="para-text">
+          Blogr is a free and open source application backed by a large
+          community of helpful developers. It supports features such as code
+          syntax highlighting, RSS feeds, social media integration,
+          third-party commenting tools, and works seamlessly with Google
+          Analytics. The architecture is clean and is relatively easy to
+          learn.
+        </p>
+
+        <h2 class="small-heading">Powerful tooling</h2>
+        <p class="para-text">
+          Batteries included. We built a simple and straightforward CLI tool
+          that makes customization and deployment a breeze, but capable of
+          producing even the most complicated sites.
+        </p>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="index.html" class="navbar-brand"
+            ><img src="images/logo.svg" alt="Blogr logo"
+          /></a>
+          </div>
+          <div class="col-md-3">
+            <h6 class="footer-head">Product</h6>
+            <ul>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="footer-head">Company</h6>
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="footer-head">Connect</h6>
+            <ul>
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
