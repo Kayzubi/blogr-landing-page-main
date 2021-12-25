@@ -397,6 +397,7 @@ width: 700px;
     position: relative;
 }
 .phones{
+    width:400px;
     position: absolute;
     top: -80px;
 }
