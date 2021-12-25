@@ -262,6 +262,7 @@ width: 700px;
     height: 180px;
 }
 .phones{
+    width:80%;
     margin-top: 20px;
     position: relative;
     top: -200px;
@@ -397,7 +398,7 @@ width: 700px;
     position: relative;
 }
 .phones{
-    width:400px;
+    width:80%;
     position: absolute;
     top: -80px;
 }
